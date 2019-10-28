@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+                integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+                crossorigin="anonymous">
+</head>
+
+<body>
+        <form onsubmit="registerUser(); return false">
+                <div class="form-group">
+                        <label for="exampleInputEmail1">Username</label>
+                        <input class="form-control" id="inputUsername" aria-describedby="emailHelp"
+                                placeholder="Enter Username">
+                        <small id="emailHelp" class="form-text text-muted">Please create a unique Username for your
+                                account</small>
+                </div>
+                <div class="form-group">
+                        <label for="exampleInputPassword1">Password</label>
+                        <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                </div>
+                <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">I have read the privacy policy</label>
+                </div>
+                <button type="submit" class="btn btn-primary" >Register</button>
+        </form>
+        <script src="./Scripts/register.js"></script>
+</body>
+
+</html>
